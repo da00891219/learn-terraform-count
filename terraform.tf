@@ -1,9 +1,9 @@
 terraform {
-  cloud {
-    workspaces {
-      name = "learn-terraform-count"
-    }
-  }
+  # cloud {
+  #   workspaces {
+  #     name = "learn-terraform-count"
+  #   }
+  # }
 
   required_providers {
     aws = {
